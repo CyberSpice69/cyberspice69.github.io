@@ -1,7 +1,8 @@
 # Portfolio Website for Creative Technologist Domme Ewan AKA Cyberspice #
 
 
-![image]([https://github.com/CyberSpice69/cyberspice69.github.io/blob/main/assets/images/domme_head.png])
+![image](https://github.com/CyberSpice69/cyberspice69.github.io/assets/123511183/11e7929d-3077-4038-8e3c-f8b7d794cb10)
+
 
 <br /><br /> <br /><br />
 # Unemployables Portfolio Template
