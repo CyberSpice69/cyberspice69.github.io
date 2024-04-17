@@ -40,7 +40,7 @@ This template is mobile friendly, so you won't have to worry about your site not
 <br />
 
 **The goals of this template are:**
-- To be a starting point for someone who's never touched web development but wants to build their own portfolio website. 
+- To be a starting point for someone who's never touched web development but wants to build their own portfolio website.
 - Help keep costs of running a portfolio website low by publishing the website on Github Pages for free (instructions further down).
 <br />
 <br />
@@ -89,7 +89,7 @@ Search for it and you'll find all the changes you need to make. That being said,
   </div>
 ```
 4. Change `PROJECT_PAGE_NAME.html` to the name of the new html file you copied from the project template
-5. The project page is now linked to the homepage! Customize the page and `"project-card"` to your heart's content. 
+5. The project page is now linked to the homepage! Customize the page and `"project-card"` to your heart's content.
 <br />
 
 ### Adding images to the project gallery
