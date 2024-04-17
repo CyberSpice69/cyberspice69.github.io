@@ -14,8 +14,8 @@
       This should be the same across all pages.
      -->
     <link rel="icon" href="./assets/images/domme_head.png" />
-		<title>Domme Ewan Cyberspice Portfolio</title>
-    <meta name="description" content="Domme Ewan Portfolio.">
+		<title>Cyberspice.net</title>
+    <meta name="description" content="Portfolio Site for Creative Technologist Domme Ewan AKA Cyberspice">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<link rel="stylesheet" href="./css/layout.css">
@@ -28,21 +28,27 @@
     <!-- NAVBAR -->
     <div class="navbar">
       <a class="nav-title-link" href="./index.html">
+
         <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
-        <span class="nav-title">Domme Ewan</span>
+				          <img src="./assets/images/domme_head.png" class="portfolio-header-image"></a>
+        <!-- <span class="nav-title">Domme Ewan</span> -->
          <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
-        <a class="button" href="mailto:domme.ewan@gmail.com">
-          <span class="button-text">Contact Me</span>
-        </a>
-      </a>
+      <!--  <a class="button" href="mailto:domme.ewan@gmail.com">
+          <span class="button-text">Contact Me</span> -->
+
+<a class="nav-title-link" href="./about.html"> About </a>
+<a class="nav-title-link" href="./contact.html"> Contact </a>
+<a class="nav-title-link" href="./cv.html"> CV </a>
+
     </div>
+
 
     <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
 
       <!-- PORTFOLIO HEADER -->
-      <div id="portfolio-header">
-        <div id="portfolio-header-image-container">
+  <!--    <div id="portfolio-header"> -->
+<!--        <div id="portfolio-header-image-container"> -->
           <!--
             TODO
 
@@ -50,11 +56,11 @@
             - Change the number to point to your Unemployable & replace the OpenSea link with your own
             - If you aren't using an Unemployable as your image, remove the entire "a" element
           -->
-          <img src="./assets/images/domme_head.png" class="portfolio-header-image">
-          <a class="no-underline" target="_blank" href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311">
+        <!--  <img src="./assets/images/domme_head.png" class="portfolio-header-image"> -->
+        <!--  <a class="no-underline" target="_blank" href="https://opensea.io/assets/0xe0be388ab81c47b0f098d2030a1c9ef190691a8a/1311"> -->
           <!--  <span class="image-caption">Unemployables #1311</span> -->
-          </a>
-        </div>
+      <!--    </a> -->
+      <!--  </div> -->
 
           <!--
             TODO
@@ -63,17 +69,17 @@
             - Change the body-text after that to a quick introduction to what you do
             - Edit the button text if you feel like it. It will link to the projects section below.
           -->
-        <div id="portfolio-header-text-container">
-            <div class="header-text">
+    <!--    <div id="portfolio-header-text-container"> -->
+          <!--  <div class="header-text">
               <span class="main-title">Hey, I'm Domme Ewan.</span>
               <div class="body-text">I’m a creative technologist.</div>
-            </div>
-            <a class="button" id="my-work-link">
+            </div>  -->
+      <!--      <a class="button" id="my-work-link">
               <span class="button-text">Check out my projects</span>
               <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-        </div>
-      </div>
+            </a> -->
+    <!--    </div> -->
+    <!--  </div> -->
 
       <!-- ABOUT SECTION -->
       <!--
@@ -83,19 +89,24 @@
         - Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
       -->
       <div id="about-section">
-        <span class="subheader-text">About</span>
+      <!--  <span class="subheader-text">About</span> -->
         <div class="about-section-content">
-          <div class="body-text">Domme Ewan is a neuro-queer Artist, Designer, Performer, and Educator based in Glasgow, Scotland.</div>
-          <div class="body-text">They use creative applications of technology to empower people, and encourage dialogues concerning the impacts of tech on society.</div>
-					<div class="body-text">Approaching digital tools in a hands-on manner; Domme blurs the conventional boundaries of interface, whilst considering the intangible and ephemeral properties of digital materials, techniques and spaces.
+          <div class="subheader-text">Domme Ewan is a neuro-queer Artist, Designer, Performer, and Educator based in Glasgow, Scotland.</div>
+          <div class="subheader-text">They use creative applications of technology to empower people, and encourage dialogues concerning the impacts of tech on people and our society.</div>
+					<div class="subheader-text">Approaching digital tools in a hands-on manner; Domme blurs the conventional boundaries of interface, whilst considering the intangible and ephemeral properties of digital materials, techniques and spaces.
 </div>
         </div>
       </div>
 
+
+
+
+
+
       <!-- PROJECTS / MY WORK SECTION -->
       <div id="my-work-section">
         <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
-        <span class="subheader-text">Projects</span>
+      <!--  <span class="subheader-text">Projects</span> -->
 
         <div class="projects-container">
           <!--
@@ -121,7 +132,7 @@
                 - PROJECT_PAGE_NAME.html: the html filename for the project (must be in project-pages folder)
           -->
           <div class="project-card">
-						<a href="./project-pages/My-Heart-Beats-Like-a-Drum.html" >
+						<a class="no-underline" href="./project-pages/My-Heart-Beats-Like-a-Drum.html" >
             <img src="./assets/images/mhblad-thumbnail.jpg" class="project-image"></a>
             <div class="project-card-text-container">
               <a href="./project-pages/My-Heart-Beats-Like-a-Drum.html" class="subheader-text project-title">My Heart Beats Like a Drum</a>
@@ -139,46 +150,49 @@
               <div class="subheader-text project-title">3 Worlds</div>
               <div class="body-text project-card-text">Mixed Reality Puzzle</div>
             </div>
-            <a class="button" href="./project-pages/project-template.html">
+        <!--    <a class="button" href="./project-pages/project-template.html">
               <span class="button-text">Read More</span>
               <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
+            </a> -->
           </div>
           <div class="project-card">
-            <img src="./assets/images/creative-coding-thumbnail.jpeg" class="project-image">
+            <img src="./assets/images/creative-coding-thumbnail.jpg" class="project-image">
             <div class="project-card-text-container">
               <div class="subheader-text project-title">Creative Coding For All Ages</div>
               <div class="body-text project-card-text">Workshop</div>
             </div>
-            <a class="button" href="./project-pages/project-template.html">
+          <!--  <a class="button" href="./project-pages/project-template.html">
               <span class="button-text">Read More</span>
               <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
+            </a> -->
           </div>
+
 					<div class="project-card">
-						<img src="./assets/images/the-talk-thumbnail.png" class="project-image">
+						<img src="./assets/images/the-talk-thumbnail.jpg" class="project-image">
 						<div class="project-card-text-container">
 							<div class="subheader-text project-title">The Talk</div>
 							<div class="body-text project-card-text">Music Visualiser</div>
 						</div>
-						<a class="button" href="./project-pages/project-template.html">
+					<!--			<a class="button" href="./project-pages/project-template.html">
 							<span class="button-text">Read More</span>
 							<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-						</a>
+						</a> -->
 					</div>
+
 					<div class="project-card">
-						<img src="./assets/images/werk-it-thumbnail.png" class="project-image">
+						<img src="./assets/images/werk-it-thumbnail.jpg" class="project-image">
 						<div class="project-card-text-container">
 							<div class="subheader-text project-title">Werk It !</div>
 							<div class="body-text project-card-text">Kinetic Sculpture</div>
 						</div>
-						<a class="button" href="./project-pages/project-template.html">
+							<a class="button" href="./project-pages/project-template.html">
 							<span class="button-text">Read More</span>
 							<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
 						</a>
 					</div>
+
 					<div class="project-card">
-						<img src="./assets/images/area-51-thumbnail.png" class="project-image">
+						<img src="./assets/images/area-51-thumbnail.jpg" class="project-image">
 						<div class="project-card-text-container">
 							<div class="subheader-text project-title">Area 51</div>
 							<div class="body-text project-card-text">Workshop</div>
@@ -188,6 +202,7 @@
 							<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
 						</a>
 					</div>
+
         </div>
       </div>
     </div>

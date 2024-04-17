@@ -27,19 +27,25 @@ a.icon-link:hover {
 /* Navbar Styling */
 
 .navbar {
-  width: 100%;
-  padding: 30px 50px;
+  width: 15%;
+  padding: 0px 0px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  /* gap: 16px; */
+  /* justify-content: space-between; */
+  align-items: left;
   position: fixed;
   top: 0;
   left: 0;
 }
 
 .nav-title-link {
+  font-weight: 700;
+  font-size: 34px;
+
   color: black;
   text-decoration: none;
+  padding: 10px 10px;
 }
 
 .nav-title-link:hover {
@@ -47,7 +53,7 @@ a.icon-link:hover {
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
   .navbar {
     padding: 20px 20px;
     background-color: white
