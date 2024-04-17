@@ -5,6 +5,7 @@
 ![image](https://github.com/CyberSpice69/cyberspice69.github.io/assets/123511183/11e7929d-3077-4038-8e3c-f8b7d794cb10)
 ![image](https://github.com/CyberSpice69/cyberspice69.github.io/assets/123511183/11e7929d-3077-4038-8e3c-f8b7d794cb10)
 ![image](https://github.com/CyberSpice69/cyberspice69.github.io/assets/123511183/11e7929d-3077-4038-8e3c-f8b7d794cb10)
+Huge thank-you to ndoherty for creating the template that this site is built upon!
 
 
 <br /><br /> <br /><br />
