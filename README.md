@@ -1,4 +1,4 @@
-# Portfolio Website for Creative Technologist Domme Ewan AKA Cyberspice #
+# Portfolio Website for Domme Ewan AKA Cyberspice #
 
 
 <a href="https://cyberspice69.github.io">
