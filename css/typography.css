@@ -1,8 +1,42 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.noto-sans-<uniquifier> {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.familjen-grotesk-<uniquifier> {
+  font-family: "Familjen Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+
+
+/*    src: href="../assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf" */
+
+
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+
+  font-family: "Familjen Grotesk", Helvetica, Arial, sans-serif;
+
 }
 
 .nav-title {
+
   font-weight: 700;
   font-size: 24px;
 }
@@ -18,22 +52,26 @@ body {
 }
 
 .main-title {
+font-family: "Familjen Grotesk";
   font-size: 40px;
   font-weight: 700;
 }
 
 .subheader-text {
+  font-family: "Familjen Grotesk";
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .body-text {
-    font-family: "Arial";
+  font-family: "Familjen Grotesk";
+    /* font-family: "Arial"; */
   font-size: 20px;
   font-weight: 400;
 }
 
 .project-card-text {
+  font-family: "Familjen Grotesk";
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -42,8 +80,10 @@ body {
 }
 
 .project-title {
-  overflow: hidden;
-  text-overflow: ellipsis;
+  font-weight: 600;
+  font-family: "Familjen Grotesk";
+  /* overflow: hidden;
+  text-overflow: ellipsis; */
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;

@@ -27,6 +27,7 @@ a.icon-link:hover {
 /* Navbar Styling */
 
 .navbar {
+font-family: "Familjen Grotesk"
   width: 15%;
   padding: 0px 0px;
   display: flex;
@@ -40,6 +41,7 @@ a.icon-link:hover {
 }
 
 .nav-title-link {
+    font-family: "Familjen Grotesk";
   font-weight: 700;
   font-size: 34px;
 
@@ -50,6 +52,7 @@ a.icon-link:hover {
 
 .nav-title-link:hover {
   text-decoration: underline;
+  font-style: slant 500;
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
